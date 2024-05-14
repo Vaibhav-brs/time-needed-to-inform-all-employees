@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Needed to Inform All Employees</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Time Needed to Inform All Employees</h1>
+    <div>
+      <label for="numEmployees">Enter number of employees:</label>
+      <input type="number" id="numEmployees" min="1" value="5">
+    </div>
+    <div>
+      <label for="informTime">Enter inform time for each employee (comma-separated):</label>
+      <input type="text" id="informTime" placeholder="e.g., 0,1,1,2,2">
+    </div>
+    <button onclick="calculateTime()">Calculate</button>
+    <div id="output"></div>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
